@@ -43,7 +43,7 @@ class ShoppingItemAdapter(
             if(curShoppingItem.amount > 0) {
                 curShoppingItem.amount--
                 viewModel.upsert(curShoppingItem)
-            }
+           }
         }
 
 
